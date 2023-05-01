@@ -3,12 +3,13 @@
 *{
     font-family: 'Montserrat', sans-serif;
     color:antiquewhite;
+     
 }
 body{
     
-    background-image: linear-gradient(to bottom, rgb(4, 0, 61), rgb(10, 0, 145));
-    height: 100vh;
    
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(4, 0, 61), rgb(10, 0, 145));
     
     padding: 50px;
 
@@ -20,7 +21,8 @@ body{
     margin:20px;
 }
 .container{
-    height: 95vh;
+    height: auto;
+    
     width: 100%;
     display:inline-flex;
 
